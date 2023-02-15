@@ -1,0 +1,1670 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../police/Raleway-Medium.ttf') format('truetype');
+    font-display: swap;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header, main, .sectionResearchUser {
+    display: flex;
+}
+.contenernameSite, .contenerChoiceUserBase, .contenerTextBeforeForm, .contenerForm, .sectionFilter,
+.sectionNumberFreeLocation {
+    display: flex;
+}
+
+.contenernameSite {
+    display: flex;
+}
+
+
+.contenerImageAndAllInformationLocation, 
+.contenerImageAndAllInformationLocationMostPopular,
+.contenerImageAndNameActivityMarseille {
+    text-decoration: none;
+    color: black;
+}
+
+.iconeContenerLogoFilter, .blueStar, .iconeLogoNumberFreeLocation, .iconeLogoLocationMostPopular {
+    color: #0065FC;
+}
+
+.greyStar {
+    color: #D9D9D9;
+}
+
+.blueStar, .greyStar {
+    font-size: 0.75em;
+}
+
+.locationDot {
+    font-size: 1.5em;
+}
+
+.iconeLogoNumberFreeLocation {
+    font-size: 0.75em;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+
+h2 {
+    font-size: 22px;
+}
+
+h3 { 
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1, h2, h3, .contenerTextFilter p, h4 {
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.inputFormCityChoice {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+@media screen and (min-width : 992px) {
+    body {
+        max-width: 1400px;
+    }
+    header {
+        height: 70px;
+        width: 100%;
+        margin : 0 0 70px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenerNameSite {
+        width: 30%;
+        height: 60%;
+        margin-left: 40px;
+    }
+
+    .logoSiteHeader {
+        width: 150px;
+        height: 100%;
+        background: url("../images/logo/Booki.png") no-repeat left;
+        background-size : 60% 60%;
+    }
+    .contenerChoiceUser {
+        height: 60%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navTwo, .navOne {
+        margin-right: 60px;
+    }
+
+    .contenerChoiceUser li {
+        list-style: none;
+    }
+    .contenerChoiceUser a {
+        color: black;
+        text-decoration: none;
+    }
+    .contenerChoiceUser a:hover {
+        padding-top : 24px;
+        border-top: 2px solid #0065FC;
+        color: #0065FC;
+    }
+
+    main {
+        margin: 0 40px 0 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionResearchUser {
+        flex-direction: column;
+    }
+
+    .contenerTextBeforeForm {
+        margin: 0 0 20px 0;
+        flex-direction: column;
+    }
+    .contenerTitleTextBeforeForm {
+        margin: 0 0 10px 0;
+        display: flex;
+    }
+    .contenerTitleTextBeforeForm h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenerUnderTitleTextBeforeForm p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenerForm {
+        height: 40px;
+        width: 450px;
+        margin: 0 0 30px 0;
+        flex-direction: row;
+        border: 1px solid #F2F2F2;
+        border-radius: 15px;;
+    }
+    .contenerLogoForm {
+        width: 50px;
+        height: 100%;
+        background-color: #F2F2F2;
+        border-radius: 13px 0 0 13px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoForm {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .formResearch {
+        height: 100%;
+        padding: 0;
+    }
+    .inputFormCityChoice {
+        height: 100%;
+        width: 250px;
+        padding-left: 10px;
+        margin: 0;
+        border: none;   
+    }
+    .contenerButtonSubmit {
+        width: 150px;
+        height: 100%;
+    }
+    .buttonFormResearch {
+        height: 100%;
+        width: 100%;
+        border: none;
+        background-color: #0065FC;
+        border-radius : 0 13px 13px 0;
+        color : white;
+        font-size : 20px;
+        cursor : pointer; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .buttonFormResearch p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sectionFilter {
+        margin: 0 0 30px 0;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contenerPartyOngletFilter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contenerFilter {
+        height: 40px;
+        margin-left: 30px;
+        border: 1px solid #D9D9D9;
+        border-radius: 35px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        display: flex;
+        cursor: pointer;
+    }
+    .contenerFilter:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        background-color: #DEEBFF;
+    }
+    .contenerTextAndLogoFilter {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenerLogoFilter {
+        height: 90%;
+        margin: 0 5px 0 20px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconeContenerLogoFilter, .iconeLogoLocationMostPopular {
+        color: #0065FC;
+        font-size: 1.5em;
+    }
+
+
+    .contenerTextFilter {
+        margin : 0 20px 0 5px;
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenerTextFilter p {
+        padding: 0;
+        margin: 0;
+        font-size: 17px;
+    }
+    
+    .sectionNumberFreeLocation {
+        margin: 0 0 30px 0;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contenerLogoNumberFreeLocation {
+        width : 25px;
+        height: 25px;
+        display: flex;
+    }
+    .logoNumberFreeLocation {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #D9D9D9;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenerTextNumberFreeLocation {
+        display: flex;
+        margin-left : 20px;
+    }
+    .contenerTextNumberFreeLocation p {
+        padding: 0;
+        margin: 0;
+    } 
+
+    .sectionLocation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectionAllLocation {
+        width: 60%;
+        background-color: #F2F2F2;
+        border-radius: 27px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenerTitleAllLocation {
+        width: 95%;
+        margin : 50px 0 15px 0;
+        display: flex;
+        justify-content: start;
+    }
+    .contenerTitleAllLocation h3 {
+        margin: 0;
+        padding: 0;
+    }
+    .contenerAllLocation {
+        width: 95%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contenerLocation {
+        margin : 0 0 30px 0;
+        width: 30%;
+        background-color: white;
+        border-radius : 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenerLocation:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .contenerImageAndAllInformationLocation {
+        width: 100%;
+        border-radius : 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerImageLocation {
+        width: 100%;
+        height: 100px;
+        border-radius: 20px 20px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .contenerImageLocation img {
+        height: 98%;
+        width: 96%;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .contenerAllInformationLocation {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nameLocation {
+        margin: 10px 0 5px 10px;
+        color: black;
+    }
+    .priceLocation, .contenerLogoNumberStar {
+        margin: 0 0 5px 10px;
+    }
+
+    .nameLocation p, .priceLocation p {
+        padding : 0;
+        margin: 0;
+    }
+
+    .contenerShowMore {
+        width: 95%;
+        margin: 0 0 40px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .showMoreText {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .showMoreText p {
+        padding: 0;
+        margin: 0;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .sectionLocationMostPopular {
+        width: 36%;
+        background-color: #F2F2F2;
+        border-radius: 27px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenerTitleAndLogoLocationMostPopular {
+        width: 85%;
+        margin : 40px 0 15px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contenerTitleLocationMostPopular {
+        display: flex;
+        align-items: center;
+    }
+    .titleLocationMostPopular h3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .iconeLogoLocationMostPopular {
+        font-size: 1.25em;
+    }
+
+    .contenerAllLocationMostPopular {
+        width: 85%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenerLocationMostPopular {
+        margin : 0 0 30px 0;
+        width: 100%;
+        height: 130px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenerLocationMostPopular:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .contenerImageAndAllInformationLocationMostPopular {
+        width: 100%;
+        height: 100%;
+        border-radius : 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contenerImageLocationMostPopular {
+        width: 33%;
+        height: 95%;
+        margin : 0 0 0 3px;
+        border-radius: 20px 0 0 20px;
+    }
+    .contenerImageLocationMostPopular img {
+        border-radius: 20px 0 0 20px;
+    }
+
+    .contenerAllInformationLocationMostPopular {
+        height: 95%;
+        margin: 0 0 0 10px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .nameLocationMostPopular {
+        margin: 10px 0 5px 0;
+        color: black;
+        display: flex;
+        align-items: center;
+    }
+    .priceLocationMostPopular, .contenerLogoNumberStarMostPopular {
+        display: flex;
+    }
+    
+    .priceLocationMostPopular {
+        align-items: flex-start;
+    }
+    .nameLocationMostPopular p, .priceLocationMostPopular p {
+        padding : 0;
+        margin: 0;
+    }
+
+    .contenerLogoNumberStarMostPopular {
+        margin: 0 0 5px 0;
+        align-items: flex-end;
+    }
+
+
+
+    .activityMarseille {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 50px 0;
+    }
+
+    .contenerAllContenerActivityMarseille {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .contenerActivityMarseille {
+        width: 22%;
+        border-radius : 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenerActivityMarseille:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .contenerImageAndNameActivityMarseille {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerImageActivityMarseille {
+        width: 100%;
+        height: 320px;
+        margin: 0;
+        padding: 0;
+        border-radius : 20px 20px 0 0;
+    }
+
+    .imageActivityMarseille {
+        width: 100%;
+        height: 100%;
+        border-radius : 20px 20px 0 0;
+        
+    }
+
+    .contenerNameActivityMarseille, .nameActivityMarseille {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .nameActivityMarseille {
+        margin: 10px 0 10px 10px;
+    }
+    .nameActivityMarseille p {
+        padding: 0;
+        margin: 0
+    }
+
+    footer {
+        margin: 0 40px 0 40px;
+        background-color: #F2F2F2;
+    }
+    footer a {
+        text-decoration: none;
+        color: black;
+    }
+    .contenerAllContenerFooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contenerAProposFooter, .contenerLocationFooter, .contenerAssitanceFooter {
+        margin: 20px 0 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerAlllinkAProposFooter, .contenerAlllinkLocationFooter, .contenerAlllinkAssitanceFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .showTel {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width : 768px) and (max-width : 992px) {
+    body {
+        width: 98%;
+    }
+    header {
+        height: 70px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenerNameSite {
+        width: 30%;
+        height: 60%;
+        margin-left: 40px;
+    }
+    .logoSiteHeader {
+        width: 150px;
+        height: 100%;
+        background: url("../images/logo/Booki.png") no-repeat left;
+        background-size : 60% 60%;
+    }
+    .contenerChoiceUser {
+        height: 60%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navTwo, .navOne {
+        margin-right: 60px;
+    }
+    
+    .contenerChoiceUser li {
+        list-style: none;
+    }
+    .contenerChoiceUser a {
+        color: black;
+        text-decoration: none;
+    }
+    .contenerChoiceUser a:hover {
+        padding-top : 100%;
+        color: #0065FC;
+        background-color: #F2F2F2;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionResearchUser {
+        width: 98%;
+        flex-direction: column;
+    }
+
+    .contenerTextBeforeForm {
+        margin: 0 0 20px 0;
+        flex-direction: column;
+    }
+    .contenerTitleTextBeforeForm {
+        margin: 0 0 10px 0;
+        display: flex;
+    }
+    .contenerTitleTextBeforeForm h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenerUnderTitleTextBeforeForm p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenerForm {
+        height: 40px;
+        width: 450px;
+        margin: 0 0 30px 0;
+        flex-direction: row;
+        border: 1px solid #F2F2F2;
+        border-radius: 15px;
+    }
+    .contenerLogoForm {
+        width: 50px;
+        height: 100%;
+        background-color: #F2F2F2;
+        border-radius: 13px 0 0 13px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoForm {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .formResearch {
+        height: 100%;
+        padding: 0;
+    }
+    .inputFormCityChoice {
+        height: 100%;
+        width: 250px;
+        padding-left: 10px;
+        margin: 0;
+        border: none;   
+    }
+    .contenerButtonSubmit {
+        width: 150px;
+        height: 100%;
+    }
+    .buttonFormResearch {
+        height: 100%;
+        width: 100%;
+        border: none;
+        background-color: #0065FC;
+        border-radius : 0 13px 13px 0;
+        color : white;
+        font-size : 20px;
+        cursor : pointer; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .buttonFormResearch p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sectionFilter {
+        width: 100%;
+        margin: 0 0 30px 0;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contenerPartyOngletFilter {
+        margin: 0 0 0 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contenerFilter {
+        height: 40px;
+        margin : 0 0 0 20px;
+        border: 1px solid #D9D9D9;
+        border-radius: 35px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        display: flex;
+        cursor: pointer;
+    }
+    .contenerFilter:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        background-color: #DEEBFF;
+    }
+    .contenerTextAndLogoFilter {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .contenerLogoFilter {
+        height: 100%;
+        margin: 0 3px 0 15px;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .iconeContenerLogoFilter {
+        font-size: 1.5em;
+    }
+    .contenerTextFilter {
+        margin: 0 15px 0 3px;
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenerTextFilter p {
+        padding: 0;
+        margin: 0;
+        font-size: 17px; 
+    }
+    
+    .sectionNumberFreeLocation {
+        margin: 0 0 30px 0;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contenerLogoNumberFreeLocation {
+        width : 30px;
+        height: 30px;
+        display: flex;
+    }
+    .logoNumberFreeLocation {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #F2F2F2;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenerTextNumberFreeLocation {
+        display: flex;
+        margin-left : 20px;
+    }
+    .contenerTextNumberFreeLocation p {
+        padding: 0;
+        margin: 0;
+    } 
+
+    .sectionLocation {
+        width: 98%;
+        margin : 0 0 80px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionAllLocation {
+        width: 100%;
+        background-color: #F2F2F2;
+        border-radius: 27px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenerTitleAllLocation {
+        width: 95%;
+        margin : 50px 0 15px 0;
+        display: flex;
+        justify-content: start;
+    }
+    .contenerTitleAllLocation h3 {
+        margin: 0;
+        padding: 0;
+    }
+    .contenerAllLocation {
+        width: 95%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contenerLocation {
+        margin : 0 0 30px 0;
+        width: 31%;
+        height: 200px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenerLocation:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .contenerImageAndAllInformationLocation {
+        width: 95%;
+        height: 95%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerImageLocation {
+        width: 100%;
+        height: 50%;
+        border-radius: 20px 20px 0 0;
+        
+    }
+    .contenerImageLocation img {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .contenerAllInformationLocation {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nameLocation {
+        margin: 10px 0 5px 0;
+        color: black;
+    }
+    .priceLocation, .contenerLogoNumberStar {
+        margin: 0 0 5px 0;
+    }
+
+    .nameLocation p, .priceLocation p {
+        padding : 0;
+        margin: 0;
+    }
+
+
+    .contenerShowMore {
+        width: 95%;
+        margin: 0 0 40px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .showMoreText {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .showMoreText p {
+        padding: 0;
+        margin: 0;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .sectionLocationMostPopular {
+        width: 100%;
+        margin : 50px 0 0 0;
+        background-color: #F2F2F2;
+        border-radius: 27px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenerTitleAndLogoLocationMostPopular {
+        width: 95%;
+        margin : 50px 0 15px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenerTitleLocationMostPopular {
+        display: flex;
+        align-items: center;
+    }
+    .titleLocationMostPopular h3 {
+        margin: 0;
+        padding: 0;
+    }
+    .contenerAllLocationMostPopular {
+        width: 95%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contenerLocationMostPopular {
+        margin : 0 0 30px 0;
+        width: 30%;
+        height: 150px;
+        background-color: white;
+        border-radius : 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenerLocationMostPopular:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .contenerImageAndAllInformationLocationMostPopular {
+        width: 100%;
+        height: 100%;
+        border-radius : 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contenerImageLocationMostPopular {
+        width: 33%;
+        height: 95%;
+        margin : 0 0 0 3px;
+        border-radius: 20px 0 0 20px;
+    }
+    .contenerImageLocationMostPopular img {
+        border-radius: 20px 0 0 20px;
+    }
+
+    .contenerAllInformationLocationMostPopular {
+        height: 95%;
+        max-width: 50%;
+        margin: 0 0 0 10px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .nameLocationMostPopular {
+        margin: 10px 0 5px 0;
+        color: black;
+        display: flex;
+        align-items: center;
+        overflow-wrap: break-word;
+    }
+    .priceLocationMostPopular, .contenerLogoNumberStarMostPopular {
+        display: flex;
+        overflow-wrap: break-word;
+    }
+    
+    .priceLocationMostPopular {
+        align-items: flex-start;
+    }
+    .nameLocationMostPopular p, .priceLocationMostPopular p {
+        padding : 0;
+        margin: 0;
+    }
+
+    .contenerLogoNumberStarMostPopular {
+        margin: 0 0 5px 0;
+        align-items: flex-end;
+    }
+
+
+    .activityMarseille {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 50px 0;
+    }
+
+    .contenerAllContenerActivityMarseille {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .contenerActivityMarseille {
+        width: 22%;
+        border-radius : 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenerActivityMarseille:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .contenerImageAndNameActivityMarseille {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerImageActivityMarseille {
+        width: 100%;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+        border-radius : 20px 20px 0 0;
+    }
+
+    .imageActivityMarseille {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius : 20px 20px 0 0;
+        
+    }
+
+    .contenerNameActivityMarseille, .nameActivityMarseille {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .nameActivityMarseille {
+        width: 90%;
+        min-height: 30px;
+        margin: 10px 0;
+    }
+    .nameActivityMarseille p {
+        max-width: 98%;
+        padding: 0;
+        margin: 0
+    }
+
+    footer {
+        margin: 0 40px 0 40px;
+        background-color: #F2F2F2;
+    }
+    footer a {
+        text-decoration: none;
+        color: black;
+    }
+    .contenerAllContenerFooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contenerAProposFooter, .contenerLocationFooter, .contenerAssitanceFooter {
+        margin: 20px 0 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerAlllinkAProposFooter, .contenerAlllinkLocationFooter, .contenerAlllinkAssitanceFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .showTel {
+        display: none;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width : 768px)  {
+    header {
+        width: 100%;
+        margin: 0 0 30px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenerNameSite {
+        width: 100%;
+        height: 40px;
+        margin: 10px 0 40px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .logoSiteHeader {
+        width: 150px;
+        height: 100%;
+        background: url("../images/logo/Booki.png") no-repeat center;
+        background-size : 60% 60%;
+    }
+    .contenerNavigationChoiceUser {
+        width: 100%;
+        display: flex;
+    }
+    .contenerChoiceUser {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contenerChoiceUser li {
+        width: 50%;
+        padding-bottom : 20px;
+        list-style: none;
+        border-bottom: 3px solid #F2F2F2;
+        display: flex;
+        justify-content: center;
+    }
+    .contenerChoiceUser li::selection {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+    .contenerChoiceUser a {
+        color: black;
+        text-decoration: none;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionResearchUser {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenerTextBeforeForm {
+        width: 95%;
+        margin: 0 0 20px 0;
+        flex-direction: column;
+    }
+    .contenerTitleTextBeforeForm {
+        margin: 0 0 10px 0;
+        display: flex;
+    }
+    .contenerTitleTextBeforeForm h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenerUnderTitleTextBeforeForm p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenerForm {
+        height: 40px;
+        width: 100%;
+        margin: 0 0 30px 0;
+        flex-direction: row;
+    }
+    .contenerLogoForm {
+        width: 10%;
+        height: 100%;
+        background-color: #F2F2F2;
+        border: 1px solid #F2F2F2;
+        border-radius: 13px 0 0 13px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoForm {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .formResearch {
+        width: 70%;
+        height: 100%;
+        padding: 0;
+    }
+    .inputFormCityChoice {
+        height: 100%;
+        width: 100%;
+        padding-left: 10px;
+        border: 1px solid #F2F2F2;  
+    }
+    .contenerButtonSubmit {
+        width: 20%;
+        height: 100%;
+    }
+    .buttonFormResearch {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #F2F2F2;
+        background-color: #0065FC;
+        border-radius : 0 13px 13px 0;
+        color : white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .showTel {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .showTel i {
+        font-size : 1.25em;
+        color: white;
+    }
+    
+
+    .sectionFilter {
+        width: 100%;
+        margin: 0 0 30px 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contenerPartyOngletFilter {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .contenerFilter {
+        height: 50px;
+        width: 48%;
+        margin : 0 0 20px 0;
+        border: 1px solid #D9D9D9;
+        border-radius: 35px;
+        display: flex;
+    }
+    .contenerTextAndLogoFilter {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .contenerLogoFilter {
+        margin: 0 0 0 5px;
+        padding: 0;
+        border-radius : 35px 0 0 35px;
+    }
+    .iconeContenerLogoFilter {
+        font-size: 1.25em;
+        margin: 0;
+        padding: 0;
+    }
+    .contenerTextFilter {
+        margin : 0 0 0 5px;
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenerTextFilter p {
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+    
+    .sectionNumberFreeLocation {
+        margin: 0 0 30px 0;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contenerLogoNumberFreeLocation {
+        width : 30px;
+        height: 30px;
+        display: flex;
+    }
+    .logoNumberFreeLocation {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #F2F2F2;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenerTextNumberFreeLocation {
+        display: flex;
+        margin-left : 20px;
+    }
+    .contenerTextNumberFreeLocation p {
+        padding: 0;
+        margin: 0;
+    } 
+
+    .sectionLocation {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sectionAllLocation {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenerTitleAllLocation {
+        width: 90%;
+        margin : 50px 0 15px 0;
+        display: flex;
+        justify-content: start;
+    }
+    .contenerTitleAllLocation h3 {
+        margin: 0;
+        padding: 0;
+    }
+    .contenerAllLocation {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenerLocation {
+        margin : 0 0 30px 0;
+        width: 100%;
+        border: 1px solid rgba(0,0,0,0.2);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        border-radius : 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenerImageAndAllInformationLocation {
+        width: 100%;
+        border-radius : 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerImageLocation {
+        height: 130px;
+        padding-top: 3px;
+        border-radius: 20px 20px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .contenerImageLocation img {
+        width: 99%;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    .contenerAllInformationLocation {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nameLocation {
+        margin: 10px 0 5px 16px;
+        color: black;
+    }
+    .priceLocation, .contenerLogoNumberStar {
+        margin: 0 0 5px 16px;
+    }
+    .nameLocation p, .priceLocation p {
+        padding : 0;
+        margin: 0;
+    }
+
+    .contenerShowMore {
+        width: 90%;
+        margin: 0 0 40px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .showMoreText {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .showMoreText p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sectionLocationMostPopular {
+        width: 100%;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenerTitleAndLogoLocationMostPopular {
+        width: 90%;
+        margin : 30px 0 15px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .titleLocationMostPopular h3 {
+        margin: 0;
+        padding: 0;
+    }
+    .contenerAllLocationMostPopular {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenerLocationMostPopular {
+        margin : 0 0 30px 0;
+        width: 100%;
+        height: 130px;
+        border: 1px solid rgba(0,0,0,0.2);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        border-radius : 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenerImageAndAllInformationLocationMostPopular {
+        width: 100%;
+        height: 100%;
+        border-radius : 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contenerImageLocationMostPopular {
+        width: 33%;
+        height: 95%;
+        margin : 0 0 0 3px;
+        border-radius: 20px 0 0 20px;
+    }
+    .contenerImageLocationMostPopular img {
+        border-radius: 20px 0 0 20px;
+    }
+
+    .contenerAllInformationLocationMostPopular {
+        height: 95%;
+        margin: 0 0 0 10px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .nameLocationMostPopular {
+        margin: 10px 0 5px 0;
+        color: black;
+        display: flex;
+        align-items: center;
+    }
+    .priceLocationMostPopular, .contenerLogoNumberStarMostPopular {
+        display: flex;
+    }
+    
+    .priceLocationMostPopular {
+        align-items: flex-start;
+    }
+    .nameLocationMostPopular p, .priceLocationMostPopular p {
+        padding : 0;
+        margin: 0;
+    }
+
+    .contenerLogoNumberStarMostPopular {
+        margin: 0 0 5px 0;
+        align-items: flex-end;
+    }
+
+    .activityMarseille {
+        width: 100%;
+        margin: 0 0 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .contenerTitleActivityMarseille {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contenerAllContenerActivityMarseille {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenerActivityMarseille {
+        width: 100%;
+        margin: 0 0 30px 0;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        border-radius : 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenerImageAndNameActivityMarseille {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerImageActivityMarseille {
+        width: 100%;
+        height: 130px;
+        margin: 0;
+        padding: 0;
+        border-radius : 20px 20px 0 0;
+    }
+
+    .imageActivityMarseille {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius : 20px 20px 0 0;
+    }
+
+    .contenerNameActivityMarseille, .nameActivityMarseille {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .nameActivityMarseille {
+        margin: 0;
+        padding : 10px 0 10px 20px;
+    }
+    .nameActivityMarseille p {
+        padding: 0;
+        margin: 0
+    }
+
+    footer {
+        background-color: #F2F2F2;
+    }
+    footer a {
+        text-decoration: none;
+        color: black;
+    }
+
+    footer h4 {
+        padding : 0;
+        margin: 0 0 10px 0;
+    }
+    .contenerAllContenerFooter {
+        width: 100%;
+        padding: 30px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenerAProposFooter, .contenerLocationFooter, .contenerAssitanceFooter {
+        width: 90%;
+        margin: 10px 0 15px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerAlllinkAProposFooter, .contenerAlllinkLocationFooter, .contenerAlllinkAssitanceFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hiddenTel {
+        display: none;
+    }
+
+}
