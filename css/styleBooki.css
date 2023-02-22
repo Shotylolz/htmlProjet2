@@ -1581,6 +1581,10 @@ h4 {
         justify-content: flex-start;
     }
 
+    .hiddenTelAll {
+        display: none;
+    }
+
     .contenerAllContenerActivityMarseille {
         width: 90%;
         display: flex;
